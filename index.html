@@ -1,10 +1,12 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Dashboard Producción</title>
-  <meta http-equiv="refresh" content="60">
-  <style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <!-- ACÁ PODEMOS CAMBIAR EL TIEMPO DE REFRESH DE LA PÁGINA -->
+    <meta http-equiv="refresh" content="60">
+    <title>Testeo de Grafana</title>
+      <style>
     html, body {
       margin: 0;
       padding: 0;
@@ -18,22 +20,6 @@
   </style>
 </head>
 <body>
-  <!-- URL DASHBOARD -->
-  <<iframe width="600" height="443" src="https://lookerstudio.google.com/embed/reporting/aa186e21-aeb5-46cd-9a3f-391f5a8cc073/page/etSOF" frameborder="0" style="border:0" allowfullscreen sandbox="allow-storage-access-by-user-activation allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox"></iframe>
-
-  <!-- Recargar cada 60 segundos -->
-  <!-- <script> -->
-    <!-- document.addEventListener("DOMContentLoaded", function () { -->
-      <!-- const iframe = document.getElementById("looker"); -->
-
-      <!-- if (iframe) { -->
-        <!-- setInterval(() => { -->
-          <!-- iframe.src = iframe.src; -->
-        <!-- }, 15000); <!-- seteo tiempo --> -->
-      <!-- } else { -->
-        <!-- console.error("No se encontró el iframe con id 'looker'"); -->
-      <!-- } -->
-    <!-- }); -->
-  <!-- </script> -->
+    <iframe src="http://192.168.38.157:3000/d-solo/6657708e-28b1-4815-bdea-05b75b5057a3/dashboard-de-prueba?orgId=1&from=1751524866533&to=1751546466533&timezone=browser&panelId=1&__feature.dashboardSceneSolo" width="450" height="200" frameborder="0"></iframe>
 </body>
 </html>
